@@ -52,3 +52,4 @@ with open(output_file, "w", newline="", encoding="utf-8-sig") as csvfile:
             print(f"[ERROR] {chain_name}: {e}")
 
 print(f"\n✅ Balances saved to '{output_file}'")
+ # Проверяем баланс каждого кошелька
